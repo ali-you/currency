@@ -69,7 +69,7 @@ class CurrencyRepo {
       "numericCode": 36,
       "currencySymbol": "\$",
       "territory":
-          "Australia, Christmas Island, Cocos (Keeling) Islands, Heard Island and McDonald Islands, Kiribati, Nauru, Norfolk Island, Tuvalu",
+      "Australia, Christmas Island, Cocos (Keeling) Islands, Heard Island and McDonald Islands, Kiribati, Nauru, Norfolk Island, Tuvalu",
       "fractionalUnit": "Cent",
       "flag": "🇦🇺"
     },
@@ -416,8 +416,8 @@ class CurrencyRepo {
       "numericCode": 978,
       "currencySymbol": "€",
       "territory":
-          "Eurozone, Andorra, Kosovo, Monaco, Montenegro, San Marino, Vatican City",
-      "flag": ""
+      "Eurozone, Andorra, Kosovo, Monaco, Montenegro, San Marino, Vatican City",
+      "flag": "🇪🇺"
     },
     {
       "isoCode": "FJD",
@@ -930,8 +930,529 @@ class CurrencyRepo {
       "territory": "New Zealand",
       "flag": "🇳🇿"
     },
-
-
-
+    {
+      "isoCode": "OMR",
+      "currencyName": "Omani rial",
+      "numericCode": 512,
+      "currencySymbol": "ر.ع.",
+      "territory": "Oman",
+      "flag": "🇴🇲"
+    },
+    {
+      "isoCode": "PAB",
+      "currencyName": "Panamanian balboa",
+      "numericCode": 590,
+      "currencySymbol": "B/.",
+      "territory": "Panama",
+      "flag": "🇵🇦"
+    },
+    {
+      "isoCode": "PEN",
+      "currencyName": "Peruvian nuevo sol",
+      "numericCode": 604,
+      "currencySymbol": "S/.",
+      "territory": "Peru",
+      "flag": "🇵🇪"
+    },
+    {
+      "isoCode": "PGK",
+      "currencyName": "Papua New Guinean kina",
+      "numericCode": 598,
+      "currencySymbol": "K",
+      "territory": "Papua New Guinea",
+      "flag": "🇵🇬"
+    },
+    {
+      "isoCode": "PHP",
+      "currencyName": "Philippine peso",
+      "numericCode": 608,
+      "currencySymbol": "₱",
+      "territory": "Philippines",
+      "flag": "🇵🇭"
+    },
+    {
+      "isoCode": "PKR",
+      "currencyName": "Pakistani rupee",
+      "numericCode": 586,
+      "currencySymbol": "₨",
+      "territory": "Pakistan",
+      "flag": "🇵🇰"
+    },
+    {
+      "isoCode": "PLN",
+      "currencyName": "Polish złoty",
+      "numericCode": 985,
+      "currencySymbol": "zł",
+      "territory": "Poland",
+      "flag": "🇵🇱"
+    },
+    {
+      "isoCode": "PYG",
+      "currencyName": "Paraguayan guaraní",
+      "numericCode": 600,
+      "currencySymbol": "₲",
+      "territory": "Paraguay",
+      "flag": "🇵🇾"
+    },
+    {
+      "isoCode": "QAR",
+      "currencyName": "Qatari riyal",
+      "numericCode": 634,
+      "currencySymbol": "ر.ق",
+      "territory": "Qatar",
+      "flag": "🇶🇦"
+    },
+    {
+      "isoCode": "RON",
+      "currencyName": "Romanian new leu",
+      "numericCode": 946,
+      "currencySymbol": "lei",
+      "territory": "Romania",
+      "flag": "🇷🇴"
+    },
+    {
+      "isoCode": "RSD",
+      "currencyName": "Serbian dinar",
+      "numericCode": 941,
+      "currencySymbol": "дин",
+      "territory": "Serbia",
+      "flag": "🇷🇸"
+    },
+    {
+      "isoCode": "RUB",
+      "currencyName": "Russian rouble",
+      "numericCode": 643,
+      "currencySymbol": "₽",
+      "territory": "Russia",
+      "flag": "🇷🇺"
+    },
+    {
+      "isoCode": "RWF",
+      "currencyName": "Rwandan franc",
+      "numericCode": 646,
+      "currencySymbol": "FRw",
+      "territory": "Rwanda",
+      "flag": "🇷🇼"
+    },
+    {
+      "isoCode": "SAR",
+      "currencyName": "Saudi riyal",
+      "numericCode": 682,
+      "currencySymbol": "ر.س",
+      "territory": "Saudi Arabia",
+      "flag": "🇸🇦"
+    },
+    {
+      "isoCode": "SBD",
+      "currencyName": "Solomon Islands dollar",
+      "numericCode": 90,
+      "currencySymbol": "SI\$",
+      "territory": "Solomon Islands",
+      "flag": "🇸🇧"
+    },
+    {
+      "isoCode": "SCR",
+      "currencyName": "Seychelles rupee",
+      "numericCode": 690,
+      "currencySymbol": "₨",
+      "territory": "Seychelles",
+      "flag": "🇸🇨"
+    },
+    {
+      "isoCode": "SDG",
+      "currencyName": "Sudanese pound",
+      "numericCode": 938,
+      "currencySymbol": "ج.س",
+      "territory": "Sudan",
+      "flag": "🇸🇩"
+    },
+    {
+      "isoCode": "SEK",
+      "currencyName": "Swedish krona/kronor",
+      "numericCode": 752,
+      "currencySymbol": "kr",
+      "territory": "Sweden",
+      "flag": "🇸🇪"
+    },
+    {
+      "isoCode": "SGD",
+      "currencyName": "Singapore dollar",
+      "numericCode": 702,
+      "currencySymbol": "S\$",
+      "territory": "Singapore",
+      "flag": "🇸🇬"
+    },
+    {
+      "isoCode": "SHP",
+      "currencyName": "Saint Helena pound",
+      "numericCode": 654,
+      "currencySymbol": "£",
+      "territory": "Saint Helena",
+      "flag": "🇸🇭"
+    },
+    {
+      "isoCode": "SLL",
+      "currencyName": "Sierra Leonean leone",
+      "numericCode": 694,
+      "currencySymbol": "Le",
+      "territory": "Sierra Leone",
+      "flag": "🇸🇱"
+    },
+    {
+      "isoCode": "SOS",
+      "currencyName": "Somali shilling",
+      "numericCode": 706,
+      "currencySymbol": "Sh.So.",
+      "territory": "Somalia",
+      "flag": "🇸🇴"
+    },
+    {
+      "isoCode": "SRD",
+      "currencyName": "Surinamese dollar",
+      "numericCode": 968,
+      "currencySymbol": "SRD",
+      "territory": "Suriname",
+      "flag": "🇸🇷"
+    },
+    {
+      "isoCode": "SSP",
+      "currencyName": "South Sudanese pound",
+      "numericCode": 728,
+      "currencySymbol": "SSP",
+      "territory": "South Sudan",
+      "flag": "🇸🇸"
+    },
+    {
+      "isoCode": "STD",
+      "currencyName": "São Tomé and Príncipe dobra",
+      "numericCode": 678,
+      "currencySymbol": "Db",
+      "territory": "São Tomé and Príncipe",
+      "flag": "🇸🇹"
+    },
+    {
+      "isoCode": "SYP",
+      "currencyName": "Syrian pound",
+      "numericCode": 760,
+      "currencySymbol": "£S",
+      "territory": "Syria",
+      "flag": "🇸🇾"
+    },
+    {
+      "isoCode": "SZL",
+      "currencyName": "Swazi lilangeni",
+      "numericCode": 748,
+      "currencySymbol": "L",
+      "territory": "Eswatini",
+      "flag": "🇸🇿"
+    },
+    {
+      "isoCode": "THB",
+      "currencyName": "Thai baht",
+      "numericCode": 764,
+      "currencySymbol": "฿",
+      "territory": "Thailand",
+      "flag": "🇹🇭"
+    },
+    {
+      "isoCode": "TJS",
+      "currencyName": "Tajikistani somoni",
+      "numericCode": 972,
+      "currencySymbol": "ЅМ",
+      "territory": "Tajikistan",
+      "flag": "🇹🇯"
+    },
+    {
+      "isoCode": "TMT",
+      "currencyName": "Turkmenistani manat",
+      "numericCode": 934,
+      "currencySymbol": "T",
+      "territory": "Turkmenistan",
+      "flag": "🇹🇲"
+    },
+    {
+      "isoCode": "TND",
+      "currencyName": "Tunisian dinar",
+      "numericCode": 788,
+      "currencySymbol": "د.ت",
+      "territory": "Tunisia",
+      "flag": "🇹🇳"
+    },
+    {
+      "isoCode": "TOP",
+      "currencyName": "Tongan paʻanga",
+      "numericCode": 776,
+      "currencySymbol": "T\$",
+      "territory": "Tonga",
+      "flag": "🇹🇴"
+    },
+    {
+      "isoCode": "TRY",
+      "currencyName": "Turkish lira",
+      "numericCode": 949,
+      "currencySymbol": "₺",
+      "territory": "Turkey",
+      "flag": "🇹🇷"
+    },
+    {
+      "isoCode": "TTD",
+      "currencyName": "Trinidad and Tobago dollar",
+      "numericCode": 780,
+      "currencySymbol": "TT\$",
+      "territory": "Trinidad and Tobago",
+      "flag": "🇹🇹"
+    },
+    {
+      "isoCode": "TWD",
+      "currencyName": "New Taiwan dollar",
+      "numericCode": 901,
+      "currencySymbol": "NT\$",
+      "territory": "Taiwan",
+      "flag": "🇹🇼"
+    },
+    {
+      "isoCode": "TZS",
+      "currencyName": "Tanzanian shilling",
+      "numericCode": 834,
+      "currencySymbol": "Sh",
+      "territory": "Tanzania",
+      "flag": "🇹🇿"
+    },
+    {
+      "isoCode": "UAH",
+      "currencyName": "Ukrainian hryvnia",
+      "numericCode": 980,
+      "currencySymbol": "₴",
+      "territory": "Ukraine",
+      "flag": "🇺🇦"
+    },
+    {
+      "isoCode": "UGX",
+      "currencyName": "Ugandan shilling",
+      "numericCode": 800,
+      "currencySymbol": "USh",
+      "territory": "Uganda",
+      "flag": "🇺🇬"
+    },
+    {
+      "isoCode": "USD",
+      "currencyName": "United States dollar",
+      "numericCode": 840,
+      "currencySymbol": "\$",
+      "territory": "United States",
+      "flag": "🇺🇸"
+    },
+    {
+      "isoCode": "USN",
+      "currencyName": "United States dollar (next day) (funds code)",
+      "numericCode": 997,
+      "currencySymbol": "USN",
+      "territory": "United States",
+      "flag": "🇺🇸"
+    },
+    {
+      "isoCode": "USS",
+      "currencyName": "United States dollar (same day) (funds code) (one source[who?] claims it is no longer used, but it is still on the ISO 4217-MA list)",
+      "numericCode": 998,
+      "currencySymbol": "USS",
+      "territory": "United States",
+      "flag": "🇺🇸"
+    },
+    {
+      "isoCode": "UYI",
+      "currencyName": "Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)",
+      "numericCode": 940,
+      "currencySymbol": "UYI",
+      "territory": "Uruguay",
+      "flag": "🇺🇾"
+    },
+    {
+      "isoCode": "UYU",
+      "currencyName": "Uruguayan peso",
+      "numericCode": 858,
+      "currencySymbol": "\$",
+      "territory": "Uruguay",
+      "flag": "🇺🇾"
+    },
+    {
+      "isoCode": "UZS",
+      "currencyName": "Uzbekistan som",
+      "numericCode": 860,
+      "currencySymbol": "so'm",
+      "territory": "Uzbekistan",
+      "flag": "🇺🇿"
+    },
+    {
+      "isoCode": "VEF",
+      "currencyName": "Venezuelan bolívar fuerte",
+      "numericCode": 937,
+      "currencySymbol": "Bs.S.",
+      "territory": "Venezuela",
+      "flag": "🇻🇪"
+    },
+    {
+      "isoCode": "VND",
+      "currencyName": "Vietnamese dong",
+      "numericCode": 704,
+      "currencySymbol": "₫",
+      "territory": "Vietnam",
+      "flag": "🇻🇳"
+    },
+    {
+      "isoCode": "VUV",
+      "currencyName": "Vanuatu vatu",
+      "numericCode": 548,
+      "currencySymbol": "VT",
+      "territory": "Vanuatu",
+      "flag": "🇻🇺"
+    },
+    {
+      "isoCode": "WST",
+      "currencyName": "Samoan tala",
+      "numericCode": 882,
+      "currencySymbol": "WS\$",
+      "territory": "Samoa",
+      "flag": "🇼🇸"
+    },
+    {
+      "isoCode": "XAF",
+      "currencyName": "CFA franc BEAC",
+      "numericCode": 950,
+      "currencySymbol": "FCFA",
+      "territory": "Central African Economic and Monetary Community",
+      "flag": "🇨🇫"
+    },
+    {
+      "isoCode": "XAG",
+      "currencyName": "Silver (one troy ounce)",
+      "numericCode": 961,
+      "currencySymbol": "oz t",
+      "territory": "None"
+    },
+    {
+      "isoCode": "XAU",
+      "currencyName": "Gold (one troy ounce)",
+      "numericCode": 959,
+      "currencySymbol": "oz t",
+      "territory": "None"
+    },
+    {
+      "isoCode": "XBA",
+      "currencyName": "European Composite Unit (EURCO) (bond market unit)",
+      "numericCode": 955,
+      "currencySymbol": "XBA",
+      "territory": "None"
+    },
+    {
+      "isoCode": "XBB",
+      "currencyName": "European Monetary Unit (E.M.U.-6) (bond market unit)",
+      "numericCode": 956,
+      "currencySymbol": "XBB",
+      "territory": "None"
+    },
+    {
+      "isoCode": "XBC",
+      "currencyName": "European Unit of Account 9 (E.U.A.-9) (bond market unit)",
+      "numericCode": 957,
+      "currencySymbol": "XBC",
+      "territory": "None"
+    },
+    {
+      "isoCode": "XBD",
+      "currencyName": "European Unit of Account 17 (E.U.A.-17) (bond market unit)",
+      "numericCode": 958,
+      "currencySymbol": "XBD",
+      "territory": "None"
+    },
+    {
+      "isoCode": "XCD",
+      "currencyName": "East Caribbean dollar",
+      "numericCode": 951,
+      "currencySymbol": "\$",
+      "territory": "Eastern Caribbean",
+      "flag": "🇦🇮"
+    },
+    {
+      "isoCode": "XDR",
+      "currencyName": "Special drawing rights",
+      "numericCode": 960,
+      "currencySymbol": "XDR",
+      "territory": "International Monetary Fund"
+    },
+    {
+      "isoCode": "XFU",
+      "currencyName": "UIC franc (special settlement currency)",
+      "numericCode": null,
+      "currencySymbol": "XFU",
+      "territory": "Universal Currency Converter"
+    },
+    {
+      "isoCode": "XOF",
+      "currencyName": "CFA franc BCEAO",
+      "numericCode": 952,
+      "currencySymbol": "CFA",
+      "territory": "West African Economic and Monetary Union",
+      "flag": "🇧🇫"
+    },
+    {
+      "isoCode": "XPD",
+      "currencyName": "Palladium (one troy ounce)",
+      "numericCode": null,
+      "currencySymbol": "oz t",
+      "territory": "None"
+    },
+    {
+      "isoCode": "XPF",
+      "currencyName": "CFP franc",
+      "numericCode": 953,
+      "currencySymbol": "F",
+      "territory": "Collectivité d'outre-mer of French Polynesia",
+      "flag": "🇵🇫"
+    },
+    {
+      "isoCode": "XPT",
+      "currencyName": "Platinum (one troy ounce)",
+      "numericCode": null,
+      "currencySymbol": "oz t",
+      "territory": "None"
+    },
+    {
+      "isoCode": "XTS",
+      "currencyName": "Code reserved for testing purposes",
+      "numericCode": null,
+      "currencySymbol": "XTS",
+      "territory": "None"
+    },
+    {
+      "isoCode": "XXX",
+      "currencyName": "No currency",
+      "numericCode": null,
+      "currencySymbol": "XXX",
+      "territory": "None"
+    },
+    {
+      "isoCode": "YER",
+      "currencyName": "Yemeni rial",
+      "numericCode": 886,
+      "currencySymbol": "﷼",
+      "territory": "Yemen",
+      "flag": "🇾🇪"
+    },
+    {
+      "isoCode": "ZAR",
+      "currencyName": "South African rand",
+      "numericCode": 710,
+      "currencySymbol": "R",
+      "territory": "South Africa",
+      "flag": "🇿🇦"
+    },
+    {
+      "isoCode": "ZMW",
+      "currencyName": "Zambian kwacha",
+      "numericCode": 967,
+      "currencySymbol": "ZK",
+      "territory": "Zambia",
+      "flag": "🇿🇲"
+    }
   ];
 }

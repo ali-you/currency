@@ -1,4 +1,5 @@
-List<CurrencyModel> currencyModelFromJson(List<Map<String, dynamic>> jsonList) =>
+List<CurrencyModel> currencyModelFromJson(
+        List<Map<String, dynamic>> jsonList) =>
     List<CurrencyModel>.from(jsonList.map((x) => CurrencyModel.fromJson(x)));
 
 class CurrencyModel {
@@ -12,21 +13,21 @@ class CurrencyModel {
 
   CurrencyModel(
       {required this.currencyName,
-        this.currencySymbol,
-        required this.isoCode,
-        this.territory,
-        this.fractionalUnit,
-        this.numericCode, this.flag});
+      this.currencySymbol,
+      required this.isoCode,
+      this.territory,
+      this.fractionalUnit,
+      this.numericCode,
+      this.flag});
 
   factory CurrencyModel.fromJson(Map<String, dynamic> json) => CurrencyModel(
-    isoCode: json["isoCode"],
-    currencyName: json["currencyName"],
-    numericCode: json["numericCode"],
-    currencySymbol: json["currencySymbol"],
-    territory: json["territory"],
-    fractionalUnit: json["fractionalUnit"],
-    flag: json["flag"]
-  );
+      isoCode: json["isoCode"],
+      currencyName: json["currencyName"],
+      numericCode: json["numericCode"],
+      currencySymbol: json["currencySymbol"],
+      territory: json["territory"],
+      fractionalUnit: json["fractionalUnit"],
+      flag: json["flag"]);
 
   @override
   String toString() {
