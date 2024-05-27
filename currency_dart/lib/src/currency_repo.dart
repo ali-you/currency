@@ -1,7 +1,6 @@
 class CurrencyRepo {
-  static final Map<String, dynamic> _currencies = {
-    "AED":
-    {
+  static final Map<String, Map<String, dynamic>> currencies = {
+    "AED": {
       "isoCode": "AED",
       "currencyName": "United Arab Emirates dirham",
       "numericCode": 784,
@@ -10,8 +9,7 @@ class CurrencyRepo {
       "fractionalUnit": "Fils",
       "flag": "🇦🇪"
     },
-    "AFN":
-    {
+    "AFN": {
       "isoCode": "AFN",
       "currencyName": "Afghan afghani",
       "numericCode": 971,
@@ -20,8 +18,7 @@ class CurrencyRepo {
       "fractionalUnit": "Pul",
       "flag": "🇦🇫"
     },
-    "ALL":
-    {
+    "ALL": {
       "isoCode": "ALL",
       "currencyName": "Albanian lek",
       "numericCode": 8,
@@ -30,8 +27,7 @@ class CurrencyRepo {
       "fractionalUnit": "Qindarka",
       "flag": "🇦🇱"
     },
-    "AMD":
-    {
+    "AMD": {
       "isoCode": "AMD",
       "currencyName": "Armenian dram",
       "numericCode": 51,
@@ -40,8 +36,7 @@ class CurrencyRepo {
       "fractionalUnit": "Luma",
       "flag": "🇦🇲"
     },
-    "ANG":
-    {
+    "ANG": {
       "isoCode": "ANG",
       "currencyName": "Netherlands Antillean guilder",
       "numericCode": 532,
@@ -50,8 +45,7 @@ class CurrencyRepo {
       "fractionalUnit": "Cent",
       "flag": "🇨🇼"
     },
-    "AOA":
-    {
+    "AOA": {
       "isoCode": "AOA",
       "currencyName": "Angolan kwanza",
       "numericCode": 973,
@@ -60,8 +54,7 @@ class CurrencyRepo {
       "fractionalUnit": "Cêntimo",
       "flag": "🇦🇴"
     },
-    "ARS":
-    {
+    "ARS": {
       "isoCode": "ARS",
       "currencyName": "Argentine peso",
       "numericCode": 32,
@@ -70,19 +63,17 @@ class CurrencyRepo {
       "fractionalUnit": "Centavo",
       "flag": "🇦🇷"
     },
-    "AUD":
-    {
+    "AUD": {
       "isoCode": "AUD",
       "currencyName": "Australian dollar",
       "numericCode": 36,
       "currencySymbol": "\$",
       "territory":
-      "Australia, Christmas Island, Cocos (Keeling) Islands, Heard Island and McDonald Islands, Kiribati, Nauru, Norfolk Island, Tuvalu",
+          "Australia, Christmas Island, Cocos (Keeling) Islands, Heard Island and McDonald Islands, Kiribati, Nauru, Norfolk Island, Tuvalu",
       "fractionalUnit": "Cent",
       "flag": "🇦🇺"
     },
-    "AWG":
-    {
+    "AWG": {
       "isoCode": "AWG",
       "currencyName": "Aruban florin",
       "numericCode": 533,
@@ -91,8 +82,7 @@ class CurrencyRepo {
       "fractionalUnit": "Cent",
       "flag": "🇦🇼"
     },
-    "AZN":
-    {
+    "AZN": {
       "isoCode": "AZN",
       "currencyName": "Azerbaijani manat",
       "numericCode": 944,
@@ -101,8 +91,7 @@ class CurrencyRepo {
       "fractionalUnit": "Qəpik",
       "flag": "🇦🇿"
     },
-    "BAM":
-    {
+    "BAM": {
       "isoCode": "BAM",
       "currencyName": "Bosnia and Herzegovina convertible mark",
       "numericCode": 977,
@@ -111,8 +100,7 @@ class CurrencyRepo {
       "fractionalUnit": "Fening",
       "flag": "🇧🇦"
     },
-    "BBD":
-    {
+    "BBD": {
       "isoCode": "BBD",
       "currencyName": "Barbados dollar",
       "numericCode": 52,
@@ -121,8 +109,7 @@ class CurrencyRepo {
       "fractionalUnit": "Cent",
       "flag": "🇧🇧"
     },
-    "BDT":
-    {
+    "BDT": {
       "isoCode": "BDT",
       "currencyName": "Bangladeshi taka",
       "numericCode": 50,
@@ -131,8 +118,7 @@ class CurrencyRepo {
       "fractionalUnit": "Poisha",
       "flag": "🇧🇩"
     },
-    "BGN":
-    {
+    "BGN": {
       "isoCode": "BGN",
       "currencyName": "Bulgarian lev",
       "numericCode": 975,
@@ -141,8 +127,7 @@ class CurrencyRepo {
       "fractionalUnit": "Stotinka",
       "flag": "🇧🇬"
     },
-    "BHD":
-    {
+    "BHD": {
       "isoCode": "BHD",
       "currencyName": "Bahraini dinar",
       "numericCode": 48,
@@ -151,8 +136,7 @@ class CurrencyRepo {
       "fractionalUnit": "Fils",
       "flag": "🇧🇭"
     },
-    "BIF":
-    {
+    "BIF": {
       "isoCode": "BIF",
       "currencyName": "Burundian franc",
       "numericCode": 108,
@@ -160,8 +144,7 @@ class CurrencyRepo {
       "territory": "Burundi",
       "flag": "🇧🇮"
     },
-    "BMD":
-    {
+    "BMD": {
       "isoCode": "BMD",
       "currencyName": "Bermudian dollar (customarily known as Bermuda dollar)",
       "numericCode": 60,
@@ -170,8 +153,7 @@ class CurrencyRepo {
       "fractionalUnit": "Cent",
       "flag": "🇧🇲"
     },
-    "BND":
-    {
+    "BND": {
       "isoCode": "BND",
       "currencyName": "Brunei dollar",
       "numericCode": 96,
@@ -180,8 +162,7 @@ class CurrencyRepo {
       "fractionalUnit": "Sen",
       "flag": "🇧🇳"
     },
-    "BOB":
-    {
+    "BOB": {
       "isoCode": "BOB",
       "currencyName": "Boliviano",
       "numericCode": 68,
@@ -190,8 +171,7 @@ class CurrencyRepo {
       "fractionalUnit": "Centavo",
       "flag": "🇧🇴"
     },
-    "BOV":
-    {
+    "BOV": {
       "isoCode": "BOV",
       "currencyName": "Bolivian Mvdol (funds code)",
       "numericCode": 984,
@@ -200,8 +180,7 @@ class CurrencyRepo {
       "fractionalUnit": "Centavo",
       "flag": "🇧🇴"
     },
-    "BRL":
-    {
+    "BRL": {
       "isoCode": "BRL",
       "currencyName": "Brazilian real",
       "numericCode": 986,
@@ -210,8 +189,7 @@ class CurrencyRepo {
       "fractionalUnit": "Centavo",
       "flag": "🇧🇷"
     },
-    "BSD":
-    {
+    "BSD": {
       "isoCode": "BSD",
       "currencyName": "Bahamian dollar",
       "numericCode": 44,
@@ -220,8 +198,7 @@ class CurrencyRepo {
       "fractionalUnit": "Cent",
       "flag": "🇧🇸"
     },
-    "BTN":
-    {
+    "BTN": {
       "isoCode": "BTN",
       "currencyName": "Bhutanese ngultrum",
       "numericCode": 64,
@@ -230,8 +207,7 @@ class CurrencyRepo {
       "fractionalUnit": "Chertrum",
       "flag": "🇧🇹"
     },
-    "BWP":
-    {
+    "BWP": {
       "isoCode": "BWP",
       "currencyName": "Botswana pula",
       "numericCode": 72,
@@ -240,8 +216,7 @@ class CurrencyRepo {
       "fractionalUnit": "Thebe",
       "flag": "🇧🇼"
     },
-    "BYR":
-    {
+    "BYR": {
       "isoCode": "BYR",
       "currencyName": "Belarusian ruble",
       "numericCode": 974,
@@ -249,8 +224,7 @@ class CurrencyRepo {
       "territory": "Belarus",
       "flag": "🇧🇾"
     },
-    "BZD":
-    {
+    "BZD": {
       "isoCode": "BZD",
       "currencyName": "Belize dollar",
       "numericCode": 84,
@@ -259,8 +233,7 @@ class CurrencyRepo {
       "fractionalUnit": "Cent",
       "flag": "🇧🇿"
     },
-    "CAD":
-    {
+    "CAD": {
       "isoCode": "CAD",
       "currencyName": "Canadian dollar",
       "numericCode": 124,
@@ -268,8 +241,7 @@ class CurrencyRepo {
       "territory": "Canada",
       "flag": "🇨🇦"
     },
-    "CDF":
-    {
+    "CDF": {
       "isoCode": "CDF",
       "currencyName": "Congolese franc",
       "numericCode": 976,
@@ -278,16 +250,14 @@ class CurrencyRepo {
       "fractionalUnit": "Centime",
       "flag": "🇨🇩"
     },
-    "CHE":
-    {
+    "CHE": {
       "isoCode": "CHE",
       "currencyName": "WIR Euro (complementary currency)",
       "numericCode": 947,
       "currencySymbol": "CHE",
       "flag": ""
     },
-    "CHF":
-    {
+    "CHF": {
       "isoCode": "CHF",
       "currencyName": "Swiss franc",
       "numericCode": 756,
@@ -296,16 +266,14 @@ class CurrencyRepo {
       "fractionalUnit": "Rappen",
       "flag": "🇨🇭"
     },
-    "CHW":
-    {
+    "CHW": {
       "isoCode": "CHW",
       "currencyName": "WIR Franc (complementary currency)",
       "numericCode": 948,
       "currencySymbol": "CHW",
       "flag": ""
     },
-    "CLF":
-    {
+    "CLF": {
       "isoCode": "CLF",
       "currencyName": "Unidad de Fomento (funds code)",
       "numericCode": 990,
@@ -313,8 +281,7 @@ class CurrencyRepo {
       "territory": "Chile",
       "flag": "🇨🇱"
     },
-    "CLP":
-    {
+    "CLP": {
       "isoCode": "CLP",
       "currencyName": "Chilean peso",
       "numericCode": 152,
@@ -322,8 +289,7 @@ class CurrencyRepo {
       "territory": "Chile",
       "flag": "🇨🇱"
     },
-    "CNY":
-    {
+    "CNY": {
       "isoCode": "CNY",
       "currencyName": "Chinese yuan",
       "numericCode": 156,
@@ -332,8 +298,7 @@ class CurrencyRepo {
       "fractionalUnit": "Jiao",
       "flag": "🇨🇳"
     },
-    "COP":
-    {
+    "COP": {
       "isoCode": "COP",
       "currencyName": "Colombian peso",
       "numericCode": 170,
@@ -341,8 +306,7 @@ class CurrencyRepo {
       "territory": "Colombia",
       "flag": "🇨🇴"
     },
-    "COU":
-    {
+    "COU": {
       "isoCode": "COU",
       "currencyName": "Unidad de Valor Real",
       "numericCode": 970,
@@ -350,8 +314,7 @@ class CurrencyRepo {
       "territory": "Colombia",
       "flag": "🇨🇴"
     },
-    "CRC":
-    {
+    "CRC": {
       "isoCode": "CRC",
       "currencyName": "Costa Rican colon",
       "numericCode": 188,
@@ -359,8 +322,7 @@ class CurrencyRepo {
       "territory": "Costa Rica",
       "flag": "🇨🇷"
     },
-    "CUC":
-    {
+    "CUC": {
       "isoCode": "CUC",
       "currencyName": "Cuban convertible peso",
       "numericCode": 931,
@@ -368,8 +330,7 @@ class CurrencyRepo {
       "territory": "Cuba",
       "flag": "🇨🇺"
     },
-    "CUP":
-    {
+    "CUP": {
       "isoCode": "CUP",
       "currencyName": "Cuban peso",
       "numericCode": 192,
@@ -377,8 +338,7 @@ class CurrencyRepo {
       "territory": "Cuba",
       "flag": "🇨🇺"
     },
-    "CVE":
-    {
+    "CVE": {
       "isoCode": "CVE",
       "currencyName": "Cape Verde escudo",
       "numericCode": 132,
@@ -386,8 +346,7 @@ class CurrencyRepo {
       "territory": "Cape Verde",
       "flag": "🇨🇻"
     },
-    "CZK":
-    {
+    "CZK": {
       "isoCode": "CZK",
       "currencyName": "Czech koruna",
       "numericCode": 203,
@@ -395,8 +354,7 @@ class CurrencyRepo {
       "territory": "Czech Republic",
       "flag": "🇨🇿"
     },
-    "DJF":
-    {
+    "DJF": {
       "isoCode": "DJF",
       "currencyName": "Djiboutian franc",
       "numericCode": 262,
@@ -404,8 +362,7 @@ class CurrencyRepo {
       "territory": "Djibouti",
       "flag": "🇩🇯"
     },
-    "DKK":
-    {
+    "DKK": {
       "isoCode": "DKK",
       "currencyName": "Danish krone",
       "numericCode": 208,
@@ -413,8 +370,7 @@ class CurrencyRepo {
       "territory": "Denmark, Faroe Islands, Greenland",
       "flag": "🇩🇰"
     },
-    "DOP":
-    {
+    "DOP": {
       "isoCode": "DOP",
       "currencyName": "Dominican peso",
       "numericCode": 214,
@@ -422,8 +378,7 @@ class CurrencyRepo {
       "territory": "Dominican Republic",
       "flag": "🇩🇴"
     },
-    "DZD":
-    {
+    "DZD": {
       "isoCode": "DZD",
       "currencyName": "Algerian dinar",
       "numericCode": 12,
@@ -431,8 +386,7 @@ class CurrencyRepo {
       "territory": "Algeria",
       "flag": "🇩🇿"
     },
-    "EGP":
-    {
+    "EGP": {
       "isoCode": "EGP",
       "currencyName": "Egyptian pound",
       "numericCode": 818,
@@ -440,8 +394,7 @@ class CurrencyRepo {
       "territory": "Egypt",
       "flag": "🇪🇬"
     },
-    "ERN":
-    {
+    "ERN": {
       "isoCode": "ERN",
       "currencyName": "Eritrean nakfa",
       "numericCode": 232,
@@ -449,8 +402,7 @@ class CurrencyRepo {
       "territory": "Eritrea",
       "flag": "🇪🇷"
     },
-    "ETB":
-    {
+    "ETB": {
       "isoCode": "ETB",
       "currencyName": "Ethiopian birr",
       "numericCode": 230,
@@ -458,18 +410,16 @@ class CurrencyRepo {
       "territory": "Ethiopia",
       "flag": "🇪🇹"
     },
-    "EUR":
-    {
+    "EUR": {
       "isoCode": "EUR",
       "currencyName": "Euro",
       "numericCode": 978,
       "currencySymbol": "€",
       "territory":
-      "Eurozone, Andorra, Kosovo, Monaco, Montenegro, San Marino, Vatican City",
+          "Eurozone, Andorra, Kosovo, Monaco, Montenegro, San Marino, Vatican City",
       "flag": "🇪🇺"
     },
-    "FJD":
-    {
+    "FJD": {
       "isoCode": "FJD",
       "currencyName": "Fiji dollar",
       "numericCode": 242,
@@ -477,8 +427,7 @@ class CurrencyRepo {
       "territory": "Fiji",
       "flag": "🇫🇯"
     },
-    "FKP":
-    {
+    "FKP": {
       "isoCode": "FKP",
       "currencyName": "Falkland Islands pound",
       "numericCode": 238,
@@ -486,8 +435,7 @@ class CurrencyRepo {
       "territory": "Falkland Islands",
       "flag": "🇫🇰"
     },
-    "GBP":
-    {
+    "GBP": {
       "isoCode": "GBP",
       "currencyName": "Pound sterling",
       "numericCode": 826,
@@ -496,8 +444,7 @@ class CurrencyRepo {
       "fractionalUnit": "Penny",
       "flag": "🇬🇧"
     },
-    "GEL":
-    {
+    "GEL": {
       "isoCode": "GEL",
       "currencyName": "Georgian lari",
       "numericCode": 981,
@@ -506,8 +453,7 @@ class CurrencyRepo {
       "fractionalUnit": "Tetri",
       "flag": "🇬🇪"
     },
-    "GHS":
-    {
+    "GHS": {
       "isoCode": "GHS",
       "currencyName": "Ghanaian cedi",
       "numericCode": 936,
@@ -516,8 +462,7 @@ class CurrencyRepo {
       "fractionalUnit": "Pesewa",
       "flag": "🇬🇭"
     },
-    "GIP":
-    {
+    "GIP": {
       "isoCode": "GIP",
       "currencyName": "Gibraltar pound",
       "numericCode": 292,
@@ -526,8 +471,7 @@ class CurrencyRepo {
       "fractionalUnit": "Penny",
       "flag": "🇬🇮"
     },
-    "GMD":
-    {
+    "GMD": {
       "isoCode": "GMD",
       "currencyName": "Gambian dalasi",
       "numericCode": 270,
@@ -536,8 +480,7 @@ class CurrencyRepo {
       "fractionalUnit": "Butut",
       "flag": "🇬🇲"
     },
-    "GNF":
-    {
+    "GNF": {
       "isoCode": "GNF",
       "currencyName": "Guinean franc",
       "numericCode": 324,
@@ -545,8 +488,7 @@ class CurrencyRepo {
       "territory": "Guinea",
       "flag": "🇬🇳"
     },
-    "GTQ":
-    {
+    "GTQ": {
       "isoCode": "GTQ",
       "currencyName": "Guatemalan quetzal",
       "numericCode": 320,
@@ -555,8 +497,7 @@ class CurrencyRepo {
       "fractionalUnit": "Centavo",
       "flag": "🇬🇹"
     },
-    "GYD":
-    {
+    "GYD": {
       "isoCode": "GYD",
       "currencyName": "Guyanese dollar",
       "numericCode": 328,
@@ -565,8 +506,7 @@ class CurrencyRepo {
       "fractionalUnit": "Cent",
       "flag": "🇬🇾"
     },
-    "HKD":
-    {
+    "HKD": {
       "isoCode": "HKD",
       "currencyName": "Hong Kong dollar",
       "numericCode": 344,
@@ -574,8 +514,7 @@ class CurrencyRepo {
       "territory": "Hong Kong",
       "flag": "🇭🇰"
     },
-    "HNL":
-    {
+    "HNL": {
       "isoCode": "HNL",
       "currencyName": "Honduran lempira",
       "numericCode": 340,
@@ -584,8 +523,7 @@ class CurrencyRepo {
       "fractionalUnit": "Centavo",
       "flag": "🇭🇳"
     },
-    "HRK":
-    {
+    "HRK": {
       "isoCode": "HRK",
       "currencyName": "Croatian kuna",
       "numericCode": 191,
@@ -593,8 +531,7 @@ class CurrencyRepo {
       "territory": "Croatia",
       "flag": "🇭🇷"
     },
-    "HTG":
-    {
+    "HTG": {
       "isoCode": "HTG",
       "currencyName": "Haitian gourde",
       "numericCode": 332,
@@ -602,8 +539,7 @@ class CurrencyRepo {
       "territory": "Haiti",
       "flag": "🇭🇹"
     },
-    "HUF":
-    {
+    "HUF": {
       "isoCode": "HUF",
       "currencyName": "Hungarian forint",
       "numericCode": 348,
@@ -611,8 +547,7 @@ class CurrencyRepo {
       "territory": "Hungary",
       "flag": "🇭🇺"
     },
-    "IDR":
-    {
+    "IDR": {
       "isoCode": "IDR",
       "currencyName": "Indonesian rupiah",
       "numericCode": 360,
@@ -620,8 +555,7 @@ class CurrencyRepo {
       "territory": "Indonesia",
       "flag": "🇮🇩"
     },
-    "ILS":
-    {
+    "ILS": {
       "isoCode": "ILS",
       "currencyName": "Israeli new shekel",
       "numericCode": 376,
@@ -630,8 +564,7 @@ class CurrencyRepo {
       "fractionalUnit": "Agora",
       "flag": "🇮🇱"
     },
-    "INR":
-    {
+    "INR": {
       "isoCode": "INR",
       "currencyName": "Indian rupee",
       "numericCode": 356,
@@ -640,8 +573,7 @@ class CurrencyRepo {
       "fractionalUnit": "Paisa",
       "flag": "🇮🇳"
     },
-    "IQD":
-    {
+    "IQD": {
       "isoCode": "IQD",
       "currencyName": "Iraqi dinar",
       "numericCode": 368,
@@ -649,8 +581,7 @@ class CurrencyRepo {
       "territory": "Iraq",
       "flag": "🇮🇶"
     },
-    "IRR":
-    {
+    "IRR": {
       "isoCode": "IRR",
       "currencyName": "Iranian rial",
       "numericCode": 364,
@@ -658,8 +589,7 @@ class CurrencyRepo {
       "territory": "Iran",
       "flag": "🇮🇷"
     },
-    "ISK":
-    {
+    "ISK": {
       "isoCode": "ISK",
       "currencyName": "Icelandic króna",
       "numericCode": 352,
@@ -667,8 +597,7 @@ class CurrencyRepo {
       "territory": "Iceland",
       "flag": "🇮🇸"
     },
-    "JMD":
-    {
+    "JMD": {
       "isoCode": "JMD",
       "currencyName": "Jamaican dollar",
       "numericCode": 388,
@@ -676,8 +605,7 @@ class CurrencyRepo {
       "territory": "Jamaica",
       "flag": "🇯🇲"
     },
-    "JOD":
-    {
+    "JOD": {
       "isoCode": "JOD",
       "currencyName": "Jordanian dinar",
       "numericCode": 400,
@@ -685,8 +613,7 @@ class CurrencyRepo {
       "territory": "Jordan",
       "flag": "🇯🇴"
     },
-    "JPY":
-    {
+    "JPY": {
       "isoCode": "JPY",
       "currencyName": "Japanese yen",
       "numericCode": 392,
@@ -694,8 +621,7 @@ class CurrencyRepo {
       "territory": "Japan",
       "flag": "🇯🇵"
     },
-    "KES":
-    {
+    "KES": {
       "isoCode": "KES",
       "currencyName": "Kenyan shilling",
       "numericCode": 404,
@@ -703,8 +629,7 @@ class CurrencyRepo {
       "territory": "Kenya",
       "flag": "🇰🇪"
     },
-    "KGS":
-    {
+    "KGS": {
       "isoCode": "KGS",
       "currencyName": "Kyrgyzstani som",
       "numericCode": 417,
@@ -712,8 +637,7 @@ class CurrencyRepo {
       "territory": "Kyrgyzstan",
       "flag": "🇰🇬"
     },
-    "KHR":
-    {
+    "KHR": {
       "isoCode": "KHR",
       "currencyName": "Cambodian riel",
       "numericCode": 116,
@@ -721,8 +645,7 @@ class CurrencyRepo {
       "territory": "Cambodia",
       "flag": "🇰🇭"
     },
-    "KMF":
-    {
+    "KMF": {
       "isoCode": "KMF",
       "currencyName": "Comoro franc",
       "numericCode": 174,
@@ -730,8 +653,7 @@ class CurrencyRepo {
       "territory": "Comoros",
       "flag": "🇰🇲"
     },
-    "KPW":
-    {
+    "KPW": {
       "isoCode": "KPW",
       "currencyName": "North Korean won",
       "numericCode": 408,
@@ -739,8 +661,7 @@ class CurrencyRepo {
       "territory": "North Korea",
       "flag": "🇰🇵"
     },
-    "KRW":
-    {
+    "KRW": {
       "isoCode": "KRW",
       "currencyName": "South Korean won",
       "numericCode": 410,
@@ -748,8 +669,7 @@ class CurrencyRepo {
       "territory": "South Korea",
       "flag": "🇰🇷"
     },
-    "KWD":
-    {
+    "KWD": {
       "isoCode": "KWD",
       "currencyName": "Kuwaiti dinar",
       "numericCode": 414,
@@ -757,8 +677,7 @@ class CurrencyRepo {
       "territory": "Kuwait",
       "flag": "🇰🇼"
     },
-    "KYD":
-    {
+    "KYD": {
       "isoCode": "KYD",
       "currencyName": "Cayman Islands dollar",
       "numericCode": 136,
@@ -766,8 +685,7 @@ class CurrencyRepo {
       "territory": "Cayman Islands",
       "flag": "🇰🇾"
     },
-    "KZT":
-    {
+    "KZT": {
       "isoCode": "KZT",
       "currencyName": "Kazakhstani tenge",
       "numericCode": 398,
@@ -775,8 +693,7 @@ class CurrencyRepo {
       "territory": "Kazakhstan",
       "flag": "🇰🇿"
     },
-    "LAK":
-    {
+    "LAK": {
       "isoCode": "LAK",
       "currencyName": "Lao kip",
       "numericCode": 418,
@@ -784,8 +701,7 @@ class CurrencyRepo {
       "territory": "Laos",
       "flag": "🇱🇦"
     },
-    "LBP":
-    {
+    "LBP": {
       "isoCode": "LBP",
       "currencyName": "Lebanese pound",
       "numericCode": 422,
@@ -793,8 +709,7 @@ class CurrencyRepo {
       "territory": "Lebanon",
       "flag": "🇱🇧"
     },
-    "LKR":
-    {
+    "LKR": {
       "isoCode": "LKR",
       "currencyName": "Sri Lankan rupee",
       "numericCode": 144,
@@ -802,8 +717,7 @@ class CurrencyRepo {
       "territory": "Sri Lanka",
       "flag": "🇱🇰"
     },
-    "LRD":
-    {
+    "LRD": {
       "isoCode": "LRD",
       "currencyName": "Liberian dollar",
       "numericCode": 430,
@@ -812,8 +726,7 @@ class CurrencyRepo {
       "fractionalUnit": "Cent",
       "flag": "🇱🇷"
     },
-    "LSL":
-    {
+    "LSL": {
       "isoCode": "LSL",
       "currencyName": "Lesotho loti",
       "numericCode": 426,
@@ -822,8 +735,7 @@ class CurrencyRepo {
       "fractionalUnit": "Sente",
       "flag": "🇱🇸"
     },
-    "LTL":
-    {
+    "LTL": {
       "isoCode": "LTL",
       "currencyName": "Lithuanian litas",
       "numericCode": 440,
@@ -832,8 +744,7 @@ class CurrencyRepo {
       "fractionalUnit": "Centas",
       "flag": "🇱🇹"
     },
-    "LVL":
-    {
+    "LVL": {
       "isoCode": "LVL",
       "currencyName": "Latvian lats",
       "numericCode": 428,
@@ -842,8 +753,7 @@ class CurrencyRepo {
       "fractionalUnit": "Santims",
       "flag": "🇱🇻"
     },
-    "LYD":
-    {
+    "LYD": {
       "isoCode": "LYD",
       "currencyName": "Libyan dinar",
       "numericCode": 434,
@@ -851,8 +761,7 @@ class CurrencyRepo {
       "territory": "Libya",
       "flag": "🇱🇾"
     },
-    "MAD":
-    {
+    "MAD": {
       "isoCode": "MAD",
       "currencyName": "Moroccan dirham",
       "numericCode": 504,
@@ -860,8 +769,7 @@ class CurrencyRepo {
       "territory": "Morocco",
       "flag": "🇲🇦"
     },
-    "MDL":
-    {
+    "MDL": {
       "isoCode": "MDL",
       "currencyName": "Moldovan leu",
       "numericCode": 498,
@@ -870,8 +778,7 @@ class CurrencyRepo {
       "fractionalUnit": "Ban",
       "flag": "🇲🇩"
     },
-    "MGA":
-    {
+    "MGA": {
       "isoCode": "MGA",
       "currencyName": "Malagasy ariary",
       "numericCode": 969,
@@ -879,8 +786,7 @@ class CurrencyRepo {
       "territory": "Madagascar",
       "flag": "🇲🇬"
     },
-    "MKD":
-    {
+    "MKD": {
       "isoCode": "MKD",
       "currencyName": "Macedonian denar",
       "numericCode": 807,
@@ -888,8 +794,7 @@ class CurrencyRepo {
       "territory": "North Macedonia",
       "flag": "🇲🇰"
     },
-    "MMK":
-    {
+    "MMK": {
       "isoCode": "MMK",
       "currencyName": "Myanma kyat",
       "numericCode": 104,
@@ -897,8 +802,7 @@ class CurrencyRepo {
       "territory": "Myanmar",
       "flag": "🇲🇲"
     },
-    "MNT":
-    {
+    "MNT": {
       "isoCode": "MNT",
       "currencyName": "Mongolian tugrik",
       "numericCode": 496,
@@ -906,8 +810,7 @@ class CurrencyRepo {
       "territory": "Mongolia",
       "flag": "🇲🇳"
     },
-    "MOP":
-    {
+    "MOP": {
       "isoCode": "MOP",
       "currencyName": "Macanese pataca",
       "numericCode": 446,
@@ -915,8 +818,7 @@ class CurrencyRepo {
       "territory": "Macau",
       "flag": "🇲🇴"
     },
-    "MRO":
-    {
+    "MRO": {
       "isoCode": "MRO",
       "currencyName": "Mauritanian ouguiya",
       "numericCode": 478,
@@ -924,8 +826,7 @@ class CurrencyRepo {
       "territory": "Mauritania",
       "flag": "🇲🇷"
     },
-    "MUR":
-    {
+    "MUR": {
       "isoCode": "MUR",
       "currencyName": "Mauritian rupee",
       "numericCode": 480,
@@ -933,8 +834,7 @@ class CurrencyRepo {
       "territory": "Mauritius",
       "flag": "🇲🇺"
     },
-    "MVR":
-    {
+    "MVR": {
       "isoCode": "MVR",
       "currencyName": "Maldivian rufiyaa",
       "numericCode": 462,
@@ -942,8 +842,7 @@ class CurrencyRepo {
       "territory": "Maldives",
       "flag": "🇲🇻"
     },
-    "MWK":
-    {
+    "MWK": {
       "isoCode": "MWK",
       "currencyName": "Malawian kwacha",
       "numericCode": 454,
@@ -951,8 +850,7 @@ class CurrencyRepo {
       "territory": "Malawi",
       "flag": "🇲🇼"
     },
-    "MXN":
-    {
+    "MXN": {
       "isoCode": "MXN",
       "currencyName": "Mexican peso",
       "numericCode": 484,
@@ -960,8 +858,7 @@ class CurrencyRepo {
       "territory": "Mexico",
       "flag": "🇲🇽"
     },
-    "MXV":
-    {
+    "MXV": {
       "isoCode": "MXV",
       "currencyName": "Mexican Unidad de Inversion (UDI) (funds code)",
       "numericCode": 979,
@@ -969,8 +866,7 @@ class CurrencyRepo {
       "territory": "Mexico",
       "flag": "🇲🇽"
     },
-    "MYR":
-    {
+    "MYR": {
       "isoCode": "MYR",
       "currencyName": "Malaysian ringgit",
       "numericCode": 458,
@@ -978,8 +874,7 @@ class CurrencyRepo {
       "territory": "Malaysia",
       "flag": "🇲🇾"
     },
-    "MZN":
-    {
+    "MZN": {
       "isoCode": "MZN",
       "currencyName": "Mozambican metical",
       "numericCode": 943,
@@ -987,8 +882,7 @@ class CurrencyRepo {
       "territory": "Mozambique",
       "flag": "🇲🇿"
     },
-    "NAD":
-    {
+    "NAD": {
       "isoCode": "NAD",
       "currencyName": "Namibian dollar",
       "numericCode": 516,
@@ -996,8 +890,7 @@ class CurrencyRepo {
       "territory": "Namibia",
       "flag": "🇳🇦"
     },
-    "NGN":
-    {
+    "NGN": {
       "isoCode": "NGN",
       "currencyName": "Nigerian naira",
       "numericCode": 566,
@@ -1005,8 +898,7 @@ class CurrencyRepo {
       "territory": "Nigeria",
       "flag": "🇳🇬"
     },
-    "NIO":
-    {
+    "NIO": {
       "isoCode": "NIO",
       "currencyName": "Nicaraguan córdoba",
       "numericCode": 558,
@@ -1014,8 +906,7 @@ class CurrencyRepo {
       "territory": "Nicaragua",
       "flag": "🇳🇮"
     },
-    "NOK":
-    {
+    "NOK": {
       "isoCode": "NOK",
       "currencyName": "Norwegian krone",
       "numericCode": 578,
@@ -1023,8 +914,7 @@ class CurrencyRepo {
       "territory": "Norway",
       "flag": "🇳🇴"
     },
-    "NPR":
-    {
+    "NPR": {
       "isoCode": "NPR",
       "currencyName": "Nepalese rupee",
       "numericCode": 524,
@@ -1032,8 +922,7 @@ class CurrencyRepo {
       "territory": "Nepal",
       "flag": "🇳🇵"
     },
-    "NZD":
-    {
+    "NZD": {
       "isoCode": "NZD",
       "currencyName": "New Zealand dollar",
       "numericCode": 554,
@@ -1041,7 +930,6 @@ class CurrencyRepo {
       "territory": "New Zealand",
       "flag": "🇳🇿"
     },
-
     "OMR": {
       "isoCode": "OMR",
       "currencyName": "Omani rial",
@@ -1385,7 +1273,8 @@ class CurrencyRepo {
     },
     "UYI": {
       "isoCode": "UYI",
-      "currencyName": "Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)",
+      "currencyName":
+          "Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)",
       "numericCode": 940,
       "currencySymbol": "UYI",
       "territory": "Uruguay",
@@ -1493,7 +1382,8 @@ class CurrencyRepo {
     },
     "XBC": {
       "isoCode": "XBC",
-      "currencyName": "European Unit of Account 9 (E.U.A.-9) (bond market unit)",
+      "currencyName":
+          "European Unit of Account 9 (E.U.A.-9) (bond market unit)",
       "numericCode": 957,
       "currencySymbol": "XBC",
       "territory": "None",
@@ -1502,7 +1392,8 @@ class CurrencyRepo {
     },
     "XBD": {
       "isoCode": "XBD",
-      "currencyName": "European Unit of Account 17 (E.U.A.-17) (bond market unit)",
+      "currencyName":
+          "European Unit of Account 17 (E.U.A.-17) (bond market unit)",
       "numericCode": 958,
       "currencySymbol": "XBD",
       "territory": "None",

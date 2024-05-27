@@ -1,7 +1,3 @@
-List<CurrencyModel> currencyModelFromJson(
-        List<Map<String, dynamic>> jsonList) =>
-    List<CurrencyModel>.from(jsonList.map((x) => CurrencyModel.fromJson(x)));
-
 class CurrencyModel {
   final String currencyName;
   final String? currencySymbol;
@@ -12,7 +8,7 @@ class CurrencyModel {
   final String? flag;
 
   CurrencyModel(
-      {required this.currencyName,
+      {this.currencyName = "Not defined",
       this.currencySymbol,
       required this.isoCode,
       this.territory,
