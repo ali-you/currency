@@ -479,5 +479,341 @@
         "currencySymbol": "Ft",
         "territory": "Hungary",
         "flag": "🇭🇺"
+    },
+    "IDR": {
+        "currencyName": "Indonesian rupiah",
+        "numericCode": 360,
+        "currencySymbol": "Rp",
+        "territory": "Indonesia",
+        "flag": "🇮🇩"
+    },
+    "ILS": {
+        "currencyName": "Israeli new shekel",
+        "numericCode": 376,
+        "currencySymbol": "₪",
+        "territory": "Israel",
+        "fractionalUnit": "Agora",
+        "flag": "🇮🇱"
+    },
+    "INR": {
+        "currencyName": "Indian rupee",
+        "numericCode": 356,
+        "currencySymbol": "₹",
+        "territory": "India",
+        "fractionalUnit": "Paisa",
+        "flag": "🇮🇳"
+    },
+    "IQD": {
+        "currencyName": "Iraqi dinar",
+        "numericCode": 368,
+        "currencySymbol": "د.ع",
+        "territory": "Iraq",
+        "flag": "🇮🇶"
+    },
+    "IRR": {
+        "currencyName": "Iranian rial",
+        "numericCode": 364,
+        "currencySymbol": "﷼",
+        "territory": "Iran",
+        "flag": "🇮🇷"
+    },
+    "ISK": {
+        "currencyName": "Icelandic króna",
+        "numericCode": 352,
+        "currencySymbol": "kr",
+        "territory": "Iceland",
+        "flag": "🇮🇸"
+    },
+    "JMD": {
+        "currencyName": "Jamaican dollar",
+        "numericCode": 388,
+        "currencySymbol": "J$",
+        "territory": "Jamaica",
+        "flag": "🇯🇲"
+    },
+    "JOD": {
+        "currencyName": "Jordanian dinar",
+        "numericCode": 400,
+        "currencySymbol": "د.ا",
+        "territory": "Jordan",
+        "flag": "🇯🇴"
+    },
+    "JPY": {
+        "currencyName": "Japanese yen",
+        "numericCode": 392,
+        "currencySymbol": "¥",
+        "territory": "Japan",
+        "flag": "🇯🇵"
+    },
+    "KES": {
+        "currencyName": "Kenyan shilling",
+        "numericCode": 404,
+        "currencySymbol": "KSh",
+        "territory": "Kenya",
+        "flag": "🇰🇪"
+    },
+    "KGS": {
+        "currencyName": "Kyrgyzstani som",
+        "numericCode": 417,
+        "currencySymbol": "с",
+        "territory": "Kyrgyzstan",
+        "flag": "🇰🇬"
+    },
+    "KHR": {
+        "currencyName": "Cambodian riel",
+        "numericCode": 116,
+        "currencySymbol": "៛",
+        "territory": "Cambodia",
+        "flag": "🇰🇭"
+    },
+    "KMF": {
+        "currencyName": "Comoro franc",
+        "numericCode": 174,
+        "currencySymbol": "CF",
+        "territory": "Comoros",
+        "flag": "🇰🇲"
+    },
+    "KPW": {
+        "currencyName": "North Korean won",
+        "numericCode": 408,
+        "currencySymbol": "₩",
+        "territory": "North Korea",
+        "flag": "🇰🇵"
+    },
+    "KRW": {
+        "currencyName": "South Korean won",
+        "numericCode": 410,
+        "currencySymbol": "₩",
+        "territory": "South Korea",
+        "flag": "🇰🇷"
+    },
+    "KWD": {
+        "currencyName": "Kuwaiti dinar",
+        "numericCode": 414,
+        "currencySymbol": "د.ك",
+        "territory": "Kuwait",
+        "flag": "🇰🇼"
+    },
+    "KYD": {
+        "currencyName": "Cayman Islands dollar",
+        "numericCode": 136,
+        "currencySymbol": "CI$",
+        "territory": "Cayman Islands",
+        "flag": "🇰🇾"
+    },
+    "KZT": {
+        "currencyName": "Kazakhstani tenge",
+        "numericCode": 398,
+        "currencySymbol": "₸",
+        "territory": "Kazakhstan",
+        "flag": "🇰🇿"
+    },
+    "LAK": {
+        "currencyName": "Lao kip",
+        "numericCode": 418,
+        "currencySymbol": "₭",
+        "territory": "Laos",
+        "flag": "🇱🇦"
+    },
+    "LBP": {
+        "currencyName": "Lebanese pound",
+        "numericCode": 422,
+        "currencySymbol": "ل.ل",
+        "territory": "Lebanon",
+        "flag": "🇱🇧"
+    },
+    "LKR": {
+        "currencyName": "Sri Lankan rupee",
+        "numericCode": 144,
+        "currencySymbol": "රු",
+        "territory": "Sri Lanka",
+        "flag": "🇱🇰"
+    },
+    "LRD": {
+        "currencyName": "Liberian dollar",
+        "numericCode": 430,
+        "currencySymbol": "L$",
+        "territory": "Liberia",
+        "fractionalUnit": "Cent",
+        "flag": "🇱🇷"
+    },
+    "LSL": {
+        "currencyName": "Lesotho loti",
+        "numericCode": 426,
+        "currencySymbol": "L",
+        "territory": "Lesotho",
+        "fractionalUnit": "Sente",
+        "flag": "🇱🇸"
+    },
+    "LTL": {
+        "currencyName": "Lithuanian litas",
+        "numericCode": 440,
+        "currencySymbol": "Lt",
+        "territory": "Lithuania",
+        "fractionalUnit": "Centas",
+        "flag": "🇱🇹"
+    },
+    "LVL": {
+        "currencyName": "Latvian lats",
+        "numericCode": 428,
+        "currencySymbol": "Ls",
+        "territory": "Latvia",
+        "fractionalUnit": "Santims",
+        "flag": "🇱🇻"
+    },
+    "LYD": {
+        "currencyName": "Libyan dinar",
+        "numericCode": 434,
+        "currencySymbol": "ل.د",
+        "territory": "Libya",
+        "flag": "🇱🇾"
+    },
+    "MAD": {
+        "currencyName": "Moroccan dirham",
+        "numericCode": 504,
+        "currencySymbol": "د.م.",
+        "territory": "Morocco",
+        "flag": "🇲🇦"
+    },
+    "MDL": {
+        "currencyName": "Moldovan leu",
+        "numericCode": 498,
+        "currencySymbol": "L",
+        "territory": "Moldova",
+        "fractionalUnit": "Ban",
+        "flag": "🇲🇩"
+    },
+    "MGA": {
+        "currencyName": "Malagasy ariary",
+        "numericCode": 969,
+        "currencySymbol": "Ar",
+        "territory": "Madagascar",
+        "flag": "🇲🇬"
+    },
+    "MKD": {
+        "currencyName": "Macedonian denar",
+        "numericCode": 807,
+        "currencySymbol": "ден",
+        "territory": "North Macedonia",
+        "flag": "🇲🇰"
+    },
+    "MMK": {
+        "currencyName": "Myanma kyat",
+        "numericCode": 104,
+        "currencySymbol": "Ks",
+        "territory": "Myanmar",
+        "flag": "🇲🇲"
+    },
+    "MNT": {
+        "currencyName": "Mongolian tugrik",
+        "numericCode": 496,
+        "currencySymbol": "₮",
+        "territory": "Mongolia",
+        "flag": "🇲🇳"
+    },
+    "MOP": {
+        "currencyName": "Macanese pataca",
+        "numericCode": 446,
+        "currencySymbol": "MOP$",
+        "territory": "Macau",
+        "flag": "🇲🇴"
+    },
+    "MRO": {
+        "currencyName": "Mauritanian ouguiya",
+        "numericCode": 478,
+        "currencySymbol": "UM",
+        "territory": "Mauritania",
+        "flag": "🇲🇷"
+    },
+    "MUR": {
+        "currencyName": "Mauritian rupee",
+        "numericCode": 480,
+        "currencySymbol": "₨",
+        "territory": "Mauritius",
+        "flag": "🇲🇺"
+    },
+    "MVR": {
+        "currencyName": "Maldivian rufiyaa",
+        "numericCode": 462,
+        "currencySymbol": "ރ.",
+        "territory": "Maldives",
+        "flag": "🇲🇻"
+    },
+    "MWK": {
+        "currencyName": "Malawian kwacha",
+        "numericCode": 454,
+        "currencySymbol": "MK",
+        "territory": "Malawi",
+        "flag": "🇲🇼"
+    },
+    "MXN": {
+        "currencyName": "Mexican peso",
+        "numericCode": 484,
+        "currencySymbol": "Mex$",
+        "territory": "Mexico",
+        "flag": "🇲🇽"
+    },
+    "MXV": {
+        "currencyName": "Mexican Unidad de Inversion (UDI) (funds code)",
+        "numericCode": 979,
+        "currencySymbol": "UDI",
+        "territory": "Mexico",
+        "flag": "🇲🇽"
+    },
+    "MYR": {
+        "currencyName": "Malaysian ringgit",
+        "numericCode": 458,
+        "currencySymbol": "RM",
+        "territory": "Malaysia",
+        "flag": "🇲🇾"
+    },
+    "MZN": {
+        "currencyName": "Mozambican metical",
+        "numericCode": 943,
+        "currencySymbol": "MT",
+        "territory": "Mozambique",
+        "flag": "🇲🇿"
+    },
+    "NAD": {
+        "currencyName": "Namibian dollar",
+        "numericCode": 516,
+        "currencySymbol": "N$",
+        "territory": "Namibia",
+        "flag": "🇳🇦"
+    },
+    "NGN": {
+        "currencyName": "Nigerian naira",
+        "numericCode": 566,
+        "currencySymbol": "₦",
+        "territory": "Nigeria",
+        "flag": "🇳🇬"
+    },
+    "NIO": {
+        "currencyName": "Nicaraguan córdoba",
+        "numericCode": 558,
+        "currencySymbol": "C$",
+        "territory": "Nicaragua",
+        "flag": "🇳🇮"
+    },
+    "NOK": {
+        "currencyName": "Norwegian krone",
+        "numericCode": 578,
+        "currencySymbol": "kr",
+        "territory": "Norway",
+        "flag": "🇳🇴"
+    },
+    "NPR": {
+        "currencyName": "Nepalese rupee",
+        "numericCode": 524,
+        "currencySymbol": "रू",
+        "territory": "Nepal",
+        "flag": "🇳🇵"
+    },
+    "NZD": {
+        "currencyName": "New Zealand dollar",
+        "numericCode": 554,
+        "currencySymbol": "NZ$",
+        "territory": "New Zealand",
+        "flag": "🇳🇿"
     }
 }
