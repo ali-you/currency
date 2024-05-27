@@ -1,39 +1,41 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# World Currency Information
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+This repository contains information about world currencies, including their ISO codes, currency names, numeric codes, currency symbols, territories, and flags.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Introduction
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Understanding the currencies used around the world is essential for various purposes such as international trade, travel, and finance. This repository provides structured data about different currencies to facilitate easy access and reference.
 
-## Features
+## Data Format
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+The currency information is provided in JSON format, with each entry containing the following fields:
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+- `isoCode`: The ISO 4217 code of the currency.
+- `currencyName`: The name of the currency.
+- `numericCode`: The numeric code assigned to the currency.
+- `currencySymbol`: The symbol used to represent the currency.
+- `territory`: The territory or country where the currency is used.
+- `flag`: The flag emoji Unicode of the territory or country.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+You can use this data for various purposes, including:
 
-```dart
-const like = 'sample';
-```
+- Building currency conversion tools.
+- Creating educational materials about world currencies.
+- Analyzing currency usage in different regions.
+- Developing applications related to international finance and trade.
 
-## Additional information
+## Contributing
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Contributions to this repository are welcome! If you have additional currency information or spot any errors, feel free to open a pull request to update the data.
+
+When contributing, please ensure the accuracy of the information and follow the existing data format.
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE).
+
+## Credits
+
+The currency information in this repository is compiled from various reliable sources, including official currency authorities and international organizations.

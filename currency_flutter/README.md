@@ -1,39 +1,98 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Flutter World Currency Information
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+Welcome to the Flutter World Currency Information repository! This project provides structured data about world currencies, including their ISO codes, currency names, numeric codes, currency symbols, territories, and flags, for use in Flutter applications.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Introduction
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Understanding and working with different currencies is a common requirement in many Flutter applications, especially those involving international finance, travel, or commerce. This repository aims to simplify currency-related tasks by providing easy access to accurate currency information.
 
-## Features
+## Data Format
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+The currency information is provided in JSON format, making it easy to integrate into your Flutter projects. Each currency entry contains the following fields:
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+- `isoCode`: The ISO 4217 code of the currency.
+- `currencyName`: The name of the currency.
+- `numericCode`: The numeric code assigned to the currency.
+- `currencySymbol`: The symbol used to represent the currency.
+- `territory`: The territory or country where the currency is used.
+- `flag`: The flag emoji Unicode of the territory or country.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+To use this currency data in your Flutter project:
+
+1. Clone or download this repository.
+2. Extract the relevant currency data from the JSON files.
+3. Integrate the currency data into your Flutter application, either by directly embedding it in your code or by loading it dynamically at runtime.
+4. Utilize the currency information for tasks such as currency conversion, displaying prices, or selecting currencies in your app's user interface.
+
+## Example
+
+Here's a simple example of how you can use the currency data in your Flutter code:
 
 ```dart
-const like = 'sample';
-```
+import 'dart:convert';
 
-## Additional information
+import 'package:flutter/material.dart';
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final currencyData = '''
+      // Replace this with the actual currency data
+      [
+        {
+          "isoCode": "USD",
+          "currencyName": "United States Dollar",
+          "numericCode": 840,
+          "currencySymbol": "\$",
+          "territory": "United States",
+          "flag": "🇺🇸"
+        },
+        // Add more currency entries here...
+      ]
+    ''';
+
+    final List<Map<String, dynamic>> currencies =
+        List<Map<String, dynamic>>.from(json.decode(currencyData));
+
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Flutter Currency App'),
+        ),
+        body: ListView.builder(
+          itemCount: currencies.length,
+          itemBuilder: (context, index) {
+            final currency = currencies[index];
+            return ListTile(
+              leading: Text(currency['flag']),
+              title: Text(currency['currencyName']),
+              subtitle: Text(currency['isoCode']),
+              trailing: Text(currency['currencySymbol']),
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+
+
+## Contributing
+
+Contributions to this repository are welcome! If you have additional currency information or spot any errors, feel free to open a pull request to update the data.
+
+When contributing, please ensure the accuracy of the information and follow the existing data format.
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE).
+
+## Credits
+
+The currency information in this repository is compiled from various reliable sources, including official currency authorities and international organizations.
