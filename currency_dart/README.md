@@ -1,3 +1,25 @@
+<a href="https://pub.dev/packages/currency_dart">
+   <img src="https://img.shields.io/pub/v/currency_dart?label=pub.dev&labelColor=333940&logo=dart">
+</a>
+<a href="https://github.com/ali-you/info-json/issues">
+   <img alt="Issues" src="https://img.shields.io/github/issues/ali-you/info-json?color=0088ff" />
+</a>
+<a href="https://github.com/ali-you/info-json/issues?q=is%3Aclosed">
+   <img alt="Issues" src="https://img.shields.io/github/issues-closed/ali-you/info-json?color=0088ff" />
+</a>
+<!-- <a href="https://github.com/ali-you/ambient-light-plugin/pulls">
+   <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/ali-you/ambient-light-plugin?color=0088ff" />
+</a> -->
+<a href="https://github.com/ali-you/info-json/pulls">
+   <img alt="GitHub Pull Requests" src="https://badgen.net/github/prs/ali-you/info-json" />
+</a>
+<a href="https://github.com/ali-you/info-json/blob/main/currency_dart/LICENSE" rel="ugc">
+   <img src="https://img.shields.io/github/license/ali-you/info-json?color=#007A88&amp;labelColor=333940;" alt="GitHub">
+</a>
+<a href="https://github.com/ali-you/info-json">
+   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ali-you/ambient-light-plugin">
+</a>
+
 # World Currency Information
 
 This repository contains information about world currencies, including their ISO codes, currency names, numeric codes, currency symbols, territories, and flags.
